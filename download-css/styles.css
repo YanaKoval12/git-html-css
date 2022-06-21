@@ -1,30 +1,25 @@
-*{
-    box-sizing: border-box;
-}
-.spinner {
-  text-align: center;
-  height: 100%;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  text-transform: uppercase;
-  animation: blinking 2s infinite;
+.spinner{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .spinner-text{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinking 2s infinite;
+    position: relative;
 }
-.rect {
-    top: 52%;
-    left: 51.5%;
-    margin-right: -50%;
-  background-color: black;
-  width: 10px;
-  height: 4px;
-  border-radius: 2px;
-  animation: blinking 2s infinite;
-  animation: moving;
-  position: absolute;
+.rect{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation:  blinking;
+    animation: move 2s infinite;
 }
