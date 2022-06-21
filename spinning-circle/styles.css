@@ -1,0 +1,28 @@
+.spinner{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.spinner-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinkin 2s infinite;
+}
+@keyframes blinkin{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
