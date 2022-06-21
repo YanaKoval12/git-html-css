@@ -19,14 +19,14 @@
   animation: move 2s;
   position: absolute;
   top: calc(50vh - 50px);
-  left: calc(55vh - 50px);;
+  left: calc(55vh - 50px);
 }
 @keyframes move {
   from {
       top:100px;
   }
   to {
-    top: 0;
-    left: 0;
+    top: calc(50vh - 50px);
+    left: calc(55vh - 50px);
   }
 }
