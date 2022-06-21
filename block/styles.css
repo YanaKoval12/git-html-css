@@ -18,14 +18,15 @@
   border-radius: 10px;
   animation: move 2s;
   position: absolute;
-  animation-fill-mode: backwards;
+  top: calc(50vh - 50px);
   left: calc(50vh - 50px);
 }
+
 @keyframes move {
   from {
-    top: calc(50vh - 50px);
+      top: 100px
   }
   to {
-    top: 100px;
+    animation-fill-mode: backwards;
   }
 }
