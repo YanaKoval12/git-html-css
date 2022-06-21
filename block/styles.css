@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .block {
-    display: flex;
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -18,12 +18,15 @@
   border-radius: 10px;
   animation: move 2s;
   position: absolute;
+  top: calc(50vh - 50px);
+  left: calc(50vh - 50px);;
 }
 @keyframes move {
-    from {
-      top: 0;
-    }
-    to {
-       margin: 300px;
-    }
+  from {
+      top:100px;
   }
+  to {
+    top: 0;
+    left: 0;
+  }
+}
