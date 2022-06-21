@@ -16,16 +16,15 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  transition-timing-function: ease;
   animation: move 2s;
   position: absolute;
-  animation-fill-mode: backwards;
 }
 @keyframes move {
     from {
-      top: 100px;
+      top: 0;
     }
     to {
+       margin: 300px;
       left: calc(50vh - 50px);
     }
   }
