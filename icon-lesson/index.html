@@ -17,6 +17,7 @@
         box-sizing: border-box;
       }
       .custom-button {
+        position: relative;
         width: 200px;
         height: 50px;
         background-color: coral;
@@ -26,10 +27,9 @@
         line-height: 50px;
         border-radius: 4px;
         border: none;
+        margin: 16px;
         cursor: pointer;
         font-family: "Courier New", Courier, monospace;
-        margin: 16px;
-        font-size: 17px;
       }
       .custom-button:hover {
         color: green;
@@ -44,6 +44,7 @@
         fill: white;
       }
       .fa-card {
+        position: absolute;
         width: 200px;
         height: 50px;
         background-color: coral;
@@ -53,14 +54,14 @@
         line-height: 50px;
         border-radius: 4px;
         border: none;
-        margin: 16px;
-        font-size: 17px;
         cursor: pointer;
         font-family: "Courier New", Courier, monospace;
+        margin: 16px;
       }
     </style>
   </head>
   <body>
+    <div>
     <button class="custom-button">
       <svg
         class="bird-icon"
@@ -83,11 +84,10 @@
       </svg>
       Catch the bird
     </button>
-    <div>
+  </div>
       <button class="fa-card">
         <i class="fa-solid fa-address-card"></i>
         Create account
       </button>
-    </div>
   </body>
 </html>
