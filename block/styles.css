@@ -27,6 +27,5 @@
   }
   to {
     top: calc(50vh - 50px);
-    left: calc(55vh - 50px);
   }
 }
