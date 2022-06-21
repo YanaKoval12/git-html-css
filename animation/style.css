@@ -13,7 +13,7 @@ body{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    animation: jump 0.5s, spin .5s .4s, move .5s 2s;
+    animation: jump 0.5s, spin .5s .4s, move .5s 2s forwards;
 }
 @keyframes jump{
     0%{
@@ -38,7 +38,7 @@ body{
     0%{
         transform: translateX(0);
     }
-    50%{
+    100%{
         transform: translateX(2000px);
     }
 }
