@@ -3,10 +3,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
   font-size: 16px;
-  flex-direction: column;
+  /* flex-direction: column;
   flex-shrink: 1;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow: hidden; */
 }
 * {
   box-sizing: border-box;
@@ -56,7 +56,7 @@ body {
 }
 .section {
   /* flex-direction: column; */
-  padding: 0.5em;
+  /* padding: 0.5em; */
   font-size: 1.25em;
 }
 .css-units {
