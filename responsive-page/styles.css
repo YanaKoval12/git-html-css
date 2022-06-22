@@ -25,11 +25,6 @@ body {
   color: white;
   flex-grow: 1;
 }
-.navigation {
-  max-width: 20%;
-  margin: 0;
-  padding: 0.5em;
-}
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -37,20 +32,18 @@ body {
   padding: 0.5em;
 }
 .nav-list-item {
-  margin-bottom: 0.5em;
   background-color: #808080;
+  color: white;
+  margin-bottom: 0.5em;
+}
+.nav-list-link {
+  color: white;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: white;
-  min-width: 100%;
-  padding: 0 5em;
-}
-.nav-list-link {
+  padding: 0.5em;
   text-decoration: none;
   list-style-type: none;
-  color: white;
-  display: flex;
 }
 .section__header {
   font-size: 5vw;
@@ -73,7 +66,6 @@ body {
 footer {
   text-align: center;
   background-color: #e5e5e5;
-  padding: 0.5em;
   padding: 0.5em;
 }
 .new {
