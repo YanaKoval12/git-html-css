@@ -44,6 +44,7 @@ body {
   text-overflow: ellipsis;
   color: white;
   min-width: 100%;
+  padding: 0 0.5em;
 }
 .nav-list-link {
   text-decoration: none;
