@@ -1,75 +1,88 @@
-html,
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #555;
-  font-size: 16px;
-  /* flex-direction: column;
-  flex-shrink: 1;
-  flex-wrap: wrap;
-  overflow: hidden; */
-}
-* {
+*{
   box-sizing: border-box;
 }
-.main {
-  display: flex;
-  min-height: 88vh;
-}
-.header {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(60deg, red, orange);
-  color: white;
-  flex-grow: 1;
-}
-.navigation{
-  padding: 0.5em;
-  width: 20%;
-  margin: 0;
-  padding: 0;
-}
-.nav-list {
+
+html,
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #555;
   display: flex;
   flex-direction: column;
-  line-height: 2em;
+  min-height: 100vh;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+
+.header {
+  color: white;
+  background: linear-gradient(60deg, red, orange);
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #e5e5e5;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.section {
+  width: 60%;
+  font-size: 1.25em;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.section__header {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.navigation {
+  width: 20%;
   padding: 0.5em;
 }
 .nav-list-item {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  background-color: #808080;
-  color: white;
-  margin-bottom: 0.5em;
-  padding: 0 0.5em;
-}
-.nav-list-link {
-  text-decoration: none;
   list-style-type: none;
+  background-color: #808080;
+  height: 2em;
+  line-height: 2em;
+  margin-bottom: 0.5em;
   color: white;
 }
-.section__header {
-  font-size: 5vw;
-  text-align: center;
+
+.nav-list-link {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.section {
-  /* flex-direction: column; */
-  /* padding: 0.5em; */
-  font-size: 1.25em;
+.nav-list {
+  padding: 0;
 }
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-  font-size: 1.125em;
   font-weight: 700;
+  font-size: 1.125em;
 }
-footer {
-  text-align: center;
-  background-color: #e5e5e5;
-  padding: 0.5em;
+.units-list {
+  height: 1.75em;
+  line-height: 1.75em;
+
 }
-.new {
+
+.news {
+  width: 20%;
   padding: 0.5em;
 }
