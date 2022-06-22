@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 2em;
-  padding: 0;
+  padding: 0.5em;
 }
 .nav-list-item {
   margin-bottom: 0.5em;
@@ -44,14 +44,15 @@ body {
   text-overflow: ellipsis;
   color: white;
   min-width: 100%;
-  padding: 0 0.5em;
+  padding: 0 5em;
 }
 .nav-list-link {
   text-decoration: none;
   list-style-type: none;
   color: white;
+  display: flex;
 }
- .section__header {
+.section__header {
   font-size: 5vw;
   text-align: center;
 }
