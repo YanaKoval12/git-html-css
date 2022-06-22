@@ -25,6 +25,10 @@ body {
   color: white;
   flex-grow: 1;
 }
+.navigation{
+  padding: 00.5em;
+  width: 20%;
+}
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -32,18 +36,18 @@ body {
   padding: 0.5em;
 }
 .nav-list-item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   background-color: #808080;
   color: white;
   margin-bottom: 0.5em;
 }
 .nav-list-link {
-  color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   padding: 0.5em;
   text-decoration: none;
   list-style-type: none;
+  color: white;
 }
 .section__header {
   font-size: 5vw;
