@@ -15,8 +15,13 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .square {
         background-color: #8a2be2;
+    }
+}
+@media screen  and (orientation: portrait) {
+    .container{
+        flex-direction: column;
     }
 }
