@@ -1,91 +1,106 @@
-*{
-  box-sizing: border-box;
-}
-
 html,
 body {
-  font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  font-size: 16px;
+  flex-direction: row;
   flex-shrink: 1;
   flex-wrap: wrap;
 }
 
-.header {
-  color: white;
-  background: linear-gradient(60deg, red, orange);
-  text-align: center;
-  flex-shrink: 1;
+* {
+  box-sizing: border-box;
 }
 
 .main {
   display: flex;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(60deg, red, orange);
+  color: white;
   flex-grow: 1;
 }
 
-.footer {
-  background-color: #e5e5e5;
-  text-align: center;
-  padding: 0.5em;
-}
-
-.section {
-  width: 60%;
-  font-size: 1.25em;
-  padding: 0.5em;
-  margin: 0;
-}
-
-.section__header {
-  text-align: center;
-  font-size: 5vw;
-}
-
 .navigation {
-  width: 20%;
+  /* max-width: 20%; */
   padding: 0.5em;
 }
-.nav-list-item {
-  list-style-type: none;
-  background-color: #808080;
-  height: 2em;
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
   line-height: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item {
   margin-bottom: 0.5em;
+  background-color: #808080;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   color: white;
+  min-width: 100%;
 }
 
 .nav-list-link {
-  width: 100%;
   text-decoration: none;
+  list-style-type: none;
   color: white;
-  display: inline-block;
-  padding: 0 0.5em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
-.nav-list {
-  padding: 0;
+
+section>.section_header {
+  font-size: 5vw;
 }
+
+.section {
+  /* width: 60%; */
+  line-height: 1.75em;
+  font-size: 1.25em;
+  padding: 0.5em;
+}
+
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-  font-weight: 700;
   font-size: 1.125em;
-}
-.units-list {
-  height: 1.75em;
-  line-height: 1.75em;
-
+  font-weight: 700;
 }
 
-.news {
-  width: 20%;
+footer {
+  text-align: center;
+  background-color: #e5e5e5;
   padding: 0.5em;
 }
-img{
+img {
   width: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 1200px) {
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 60%;
+    
+  }
+  .news {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    flex-direction: column;
+  }
 }
