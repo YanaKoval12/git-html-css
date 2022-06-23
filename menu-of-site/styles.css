@@ -38,12 +38,12 @@ html{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
   .nav-list{
     opacity: 0;
   }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
   .fa-bars{
     opacity: 0;
   }
