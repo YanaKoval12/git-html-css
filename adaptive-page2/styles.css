@@ -30,6 +30,10 @@
     background-color: #e5e5e5;
     text-align: center;
     padding: 0.5em;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   
   .section {
@@ -93,22 +97,15 @@ img{
     width: 100%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }  
-@media screen and (min-width: 1200px) {
-    .news{
-        width: 20%;
-    }
+@media screen and (orientation: portrait){
+  .navigation {
+    flex-direction: column;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .news {
+    flex-direction: column;
+  }
 }
-@media screen and (max-width: 600px){
-     .smal-picture{
-        visibility: visible;
-    }
-    .navigation{
-        width: 20%;
-    }
-    .section{
-        width: 60%;
-    }
-    .news{
-        width: 20%;
-    }
-}
+
