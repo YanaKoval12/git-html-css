@@ -101,7 +101,7 @@ img{
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .info-section {
     display: flex;
   }
@@ -110,5 +110,20 @@ img{
   }
   .navigation {
     width: 20vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    width: 100vw;
+  }
+  .navigation {
+    width: 100vw;
+  }
+  .section {
+    width: 100vw;
   }
 }
