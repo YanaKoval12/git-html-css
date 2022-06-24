@@ -1,9 +1,14 @@
-main{
-    display: flex;
+main {
+  display: flex;
+  background-size: cover;
 }
-picture{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-size: contain;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
