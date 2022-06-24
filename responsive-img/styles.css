@@ -3,12 +3,7 @@ main {
   background-size: cover;
 }
 picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-size: contain;
+  margin: auto;
   max-width: 100%;
   height: auto;
-  margin: auto;
 }
