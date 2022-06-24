@@ -3,7 +3,8 @@ main {
   background-size: cover;
 }
 picture {
-  max-width: 100%;
-  margin: auto;
-  object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
 }
