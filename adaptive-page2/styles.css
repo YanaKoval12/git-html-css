@@ -84,32 +84,12 @@ body {
   line-height: 1.75em;
 
 }
-
 .news {
   width: 100%;
   padding: 0.5em;
 }
 img{
   max-width: 100%;
-}
-@media screen and (max-width: 600px) {
-  .main{
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 900px) {
-  .main{
-    flex-direction: column;
-  }
-  .news{
-    width: 100vw;
-  }
-  .section{
-    width: 100vw;
-  }
-  .navigation{
-    width: 100vw;
-  }
 }
 @media screen and (min-width: 1200px) {
   .main{
@@ -125,51 +105,14 @@ img{
     width: 20vw;
   }
 }
-
-/* @media screen and (min-width: 1200px) {
-  .main{
+@media screen and (min-width: 600px){
+  .info-section{
     display: flex;
-    flex-direction: row;
-  }
-  .navigation{
-    width: 20vw;
   }
   .section{
-    width: 60vw;
+    width: 80vw;
   }
-  .news{
+  .navigation{
     width: 20vw;
   }
 }
-@media screen and (min-width: 600px) {
-  .main{
-    display: flex;
-    flex-direction: column;
-  }
-  .container{
-    display: flex;
-  }
-  .navigation{
-    width: 20vw;
-  }
-  .section{
-    width: 20vw;
-  }
-  .news{
-    width: 100vw;
-  }
-}
-@media  screen and (max-width: 600px) {
-  .main{
-    flex-direction: column;
-  }
-  .navigation{
-    width: 100vw;
-  }
-  .section{
-    width: 100vw;
-  }
-  .news{
-    width: 100vw;
-  }
-} */
