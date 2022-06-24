@@ -3,7 +3,7 @@ main {
   background-size: cover;
 }
 picture {
-  margin: auto;
   max-width: 100%;
-  height: auto;
+  margin: auto;
+  object-fit: cover;
 }
