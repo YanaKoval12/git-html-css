@@ -1,6 +1,5 @@
 .header {
   background-color: #006400;
-  height: 3em;
 }
 
 .menu {
@@ -8,8 +7,10 @@
   margin: 0;
   display: flex;
   align-items: center;
+  height: 3em;
   position: relative;
   margin-left: 3em;
+  text-transform: uppercase;
 }
 
 .menu__item {
@@ -21,7 +22,6 @@
 
 .menu__item-text {
   padding: 8px;
-  text-transform: uppercase;
 }
 
 .menu__item-text:hover {
