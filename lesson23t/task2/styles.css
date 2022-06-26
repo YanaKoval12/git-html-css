@@ -2,23 +2,30 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .square {
   height: 100px;
   width: 100px;
   background-color: coral;
-  margin: 16px;
+  margin: 8px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .square {
-    background-color: coral;
+    background-color: #ff7f50;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 899px) {
   .square {
-    background-color: #8a2b8a;
+    background-color: #8a2be2;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1199px) {
   .square {
     background-color: #a61;
   }
@@ -27,13 +34,6 @@
   .square {
     background-color: #c47;
   }
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 
 @media (orientation: landscape) {
