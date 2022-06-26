@@ -10,16 +10,18 @@
   align-items: center;
   height: $margin;
   position: relative;
+  margin-left: 3em;
 }
 .menu__item {
+  display: flex;
   color: $text-color;
   list-style-type: none;
   cursor: pointer;
-  text-transform: uppercase;
 }
 .menu__item-text {
-  padding: 1em;
-}
+  padding: 8px;
+  text-transform: uppercase;
+ }
 .menu__item-text:hover {
   background-color: $color-hover;
   color: $color-item;

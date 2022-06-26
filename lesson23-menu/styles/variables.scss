@@ -9,11 +9,3 @@ $color-item: yellow;
 $color-submenu: #ff7f50;
 
 $text-color: #fff;
-
-$sm: 120px;
-
-@mixin for-sm-up {
-    @media screen  and (min-width: 120px){
-        @content;
-    }
-}
