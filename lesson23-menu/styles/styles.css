@@ -13,6 +13,7 @@
 }
 
 .menu__item {
+  display: flex;
   color: #fff;
   list-style-type: none;
   cursor: pointer;
