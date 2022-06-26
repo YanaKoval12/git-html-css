@@ -16,15 +16,17 @@
   list-style-type: none;
   cursor: pointer;
   margin: 8px;
-  margin-left: 3em;
   text-transform: uppercase;
+}
+.menu__item-text{
+    padding: 1em;
 }
 .menu__item-text:hover {
   background-color: $color-hover;
   color: $color-item;
 }
-.menu__item-text{
-    position: relative;
+.products{
+    color: yellow;
 }
 .submenu {
   margin: 0;
