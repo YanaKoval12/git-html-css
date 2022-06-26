@@ -1,13 +1,13 @@
 .header {
   background-color: #006400;
+  height: 3em;
 }
 
 .menu {
   padding: 0;
   margin: 0;
   display: flex;
-  margin-top: 8px;
-  height: 3em;
+  align-items: center;
   position: relative;
   margin-left: 3em;
 }
