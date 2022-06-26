@@ -19,6 +19,7 @@
   cursor: pointer;
   text-transform: uppercase;
   line-height: 3em;
+  padding: 0 8px;
 }
 
 .menu__item-text {
