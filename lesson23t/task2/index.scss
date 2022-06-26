@@ -14,7 +14,7 @@
   background-color: coral;
   margin: 8px;
 
-  @include for-medium-up{
+  @include for-st-up{
       background-color: #ff7f50;
   }
   @include for-medium-up {

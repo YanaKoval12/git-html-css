@@ -15,7 +15,7 @@
   background-color: coral;
   margin: 8px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 320px) {
   .square {
     background-color: #ff7f50;
   }
