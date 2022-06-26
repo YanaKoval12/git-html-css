@@ -10,14 +10,14 @@
   align-items: center;
   height: $margin;
   position: relative;
-  margin-left: 3em;
-  text-transform: uppercase;
+  margin-left: $margin;
 }
 .menu__item {
-  display: flex;
+//   display: flex;
   color: $text-color;
   list-style-type: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .menu__item-text {
   padding: 8px;
@@ -26,8 +26,8 @@
   background-color: $color-hover;
   color: $color-item;
 }
-.products {
-  color: yellow;
+.menu__item_active {
+  color: $color-item;
 }
 .submenu {
   margin: 0;
@@ -42,6 +42,9 @@
   min-width: 120px;
   background-color: $color-submenu;
   margin-left: 0.5em;
+}
+.submenu__item{
+    margin: 8px;
 }
 .menu__item:hover .submenu {
   display: block;

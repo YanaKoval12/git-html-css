@@ -10,14 +10,13 @@
   height: 3em;
   position: relative;
   margin-left: 3em;
-  text-transform: uppercase;
 }
 
 .menu__item {
-  display: flex;
   color: #fff;
   list-style-type: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .menu__item-text {
@@ -29,7 +28,7 @@
   color: yellow;
 }
 
-.products {
+.menu__item_active {
   color: yellow;
 }
 
@@ -48,6 +47,10 @@
   margin-left: 0.5em;
 }
 
+.submenu__item {
+  margin: 8px;
+}
+
 .menu__item:hover .submenu {
   display: block;
 }
@@ -63,10 +66,6 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-}
-
-.submenu__item {
-  padding: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */
