@@ -15,18 +15,17 @@
   color: $text-color;
   list-style-type: none;
   cursor: pointer;
-  margin: 8px;
   text-transform: uppercase;
 }
-.menu__item-text{
-    padding: 1em;
+.menu__item-text {
+  padding: 1em;
 }
 .menu__item-text:hover {
   background-color: $color-hover;
   color: $color-item;
 }
-.products{
-    color: yellow;
+.products {
+  color: yellow;
 }
 .submenu {
   margin: 0;
@@ -42,9 +41,9 @@
   background-color: $color-submenu;
   margin-left: 0.5em;
 }
-.menu__item:hover  .submenu{
-    display: block;
+.menu__item:hover .submenu {
+  display: block;
 }
-.submenu__item:hover{
-    color: black;
+.submenu__item:hover {
+  color: black;
 }
