@@ -1,0 +1,10 @@
+.gallery{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    cursor: all-scroll;
+}
+.thumb{
+    display: inline-block;
+    margin: 8px;
+}
